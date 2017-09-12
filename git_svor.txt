@@ -7,4 +7,43 @@ Git spurningar og svör
 	pwd	 #Segir notanda hvar hann er
 	mkdir #Býr til nýtt directory
 
+2. Hvað gera eftirfarandi git skipanir og hvers vegna eru þær gagnlegar?
+	git clone #Klónar git verkefni í directory
+	git log #Sýnir commit loggin
+	git status #Sýnir statusinn á directoryinu sem þú ert á
+	git diff #Sýnir breytingar á milli commitinn
+	git checkout #Skiptir um branch eða restorar gömlum gögnum
+
+3. Hver er munurinn á eftirfarandi git skipunum:
+	a) git diff #Sýnir breytingar á milli commits 
+	b) git diff --staged #Sýnir aðeins breytingar á "staged" svæðinu
+	c) git diff commit1 commit2 #Sýnir breytingar á milli commit1 og commit2
+
+
+4. 	Hvað er útgáfustýring (e.version control)? 
+svar: System sem fylgist með breytingum á files svo að þú getur endurkallað á gömul version. 
+
+5.	Hverjir eru helstu kostir við að nota GIT?
+svar: Þægilegt að geta farið aftur í tímann og notað gömul version af því sem þú ert að vinna í. Einnig hentugt ef margir eru að vinna að því sama.
+
+6.	Hversu oft telur þú að eigi að gera commit í verkefni, rökstuddu?
+Mikilvægt að gera það oft, fer reyndar eftir því hversu stórt verkefni það er. Ef þú ruglar eitthvað og ert ekki sáttur með það eða erfitt að laga er hægt að kalla upp previous version og getur þú aðeins kallað aftur ef þú committar.
+
+7.	Hvað er "Working directory"?" "Staging area"?" og "Repository" í GIT?
+	Working Directory = Directoryið sem notandi er að vinna í.
+	Staging area = Staður sem files fara á áður en committað er, með git add . færast hlutirnir í indexið (staging area)
+	repository = Skrár færast þangað með commit skipuninni, respitory heldur utan um allar breytingar sem þú committar.
+
+8.	Hvenær er sniðugt að nota greinar (branches)? 
+
+Sniðugt að nota ef þú ert að gera breytingar sem þú ert ekki alveg viss með, notar commandið "git branch <branch>" og vinnur og ef þú ert sáttur með breytingarnar getur þú mergað masterinn og branchinn saman.
+
+9.	Hver fann upp GIT?
+
+Linus Torvalds
+
+10.	Hvar er GIT helst notað?
+
+Forritun og fleiri tölvutengd verkefni.
+
 Eyþór Alexander

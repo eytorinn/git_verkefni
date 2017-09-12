@@ -1,0 +1,9 @@
+Git spurningar og svör
+
+1. Hvað gera eftirfarandi Linux skipanir?
+	cd  #Færa notanda í annan directory
+	cd ~ #Færa notanda í notandamöppuna sína
+	ls	 #Sýnir notanda skrár í núverandi directory
+	pwd	 #Segir notanda hvar hann er
+	mkdir #Býr til nýtt directory
+

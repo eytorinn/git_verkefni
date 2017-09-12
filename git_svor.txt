@@ -7,3 +7,4 @@ Git spurningar og svör
 	pwd	 #Segir notanda hvar hann er
 	mkdir #Býr til nýtt directory
 
+Eyþór Alexander
